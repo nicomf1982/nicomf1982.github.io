@@ -1,5 +1,9 @@
 window.onload = function () { }
     //alert("It's loaded!")
+    if(Chart){
+        console.log(global.plugins)
+    }
+    
     var ctx = document.getElementById("myChart").getContext('2d');
     //Chart.defaults.global.barPercentage = 0.3;
     var myChart = new Chart(ctx, {
